@@ -37,7 +37,7 @@ public class MainApp {
       }
 
       User user = userService.getUserByCar("GAS", 66);
-      System.out.println(user.toString());
+      System.out.println(user);
 
       context.close();
    }
